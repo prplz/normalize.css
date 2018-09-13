@@ -307,9 +307,11 @@ textarea {
 
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
+ * 1. Add correct display in IE.
  */
 
-details {
+details,
+main { /* 1 */
   display: block;
 }
 
